@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for travel company",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simke021/natours-project.git"
+  },
+  "author": "Aleksandar Ljubisic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simke021/natours-project/issues"
+  },
+  "homepage": "https://github.com/Simke021/natours-project#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
