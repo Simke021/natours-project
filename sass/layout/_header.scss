@@ -13,6 +13,12 @@
   background-position: top;
   position: relative;
 
+  -webkit-clip-path: polygon(
+    /* http://bennettfeely.com/clippy/ */ 0 0,
+    100% 0,
+    100% 75vh,
+    0 100%
+  );
   clip-path: polygon(
     /* http://bennettfeely.com/clippy/ */ 0 0,
     100% 0,
